@@ -11,9 +11,11 @@ btn.addEventListener("click", function calculate() {
   let buyingPriceTotal = stock.value * buyPrice;
   let currentValueTotal = stock.value * current_price.value;
   let profitOrLoss = currentValueTotal - buyingPriceTotal;
-
+  let percent = (profitOrLoss * 100) / buyingPriceTotal;
   if (profitOrLoss >= 0) {
-    alert(`your profit is ${profitOrLoss} and your profit percent is % return`);
+    alert(
+      `your profit is ${profitOrLoss} and your profit percent is ${percent}% return`
+    );
   } else {
     alert(`your loss is ${profitOrLoss} and your loss percent is % return`);
   }
