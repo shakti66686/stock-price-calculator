@@ -11,7 +11,7 @@
   justify-content: center;
 }
 .main-section {
-  background-color: bisque;
+  background-color: rgb(207, 202, 202);
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -71,11 +71,6 @@
   width: 6vw;
   height: 5vh;
   font-size: 15px;
-}
-#h3-3 {
-  width: 40px;
-  height: 40px;
-  background-color: antiquewhite;
 }
 
 /* responshivness */
